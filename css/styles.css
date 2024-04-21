@@ -53,6 +53,12 @@ nav li a:hover {
 
 }
 
+.page_title {
+
+    text-align: center;
+
+}
+
 main {
 
     font-family: 'Manrope', Serif, sans-serif;
@@ -66,11 +72,46 @@ main p {
 
 }
 
-.page_title {
+article {
 
-    text-align: center;
+    padding:0 1%;
 
 }
+
+article img {
+
+    padding-left: 1%;
+    max-width: 20%;
+    float: right;
+
+}
+
+#mission {
+
+    padding: 10% 0;
+    text-align: right;
+}
+
+#mission img {
+
+    float: left;
+    padding-right: 1%;
+}
+
+#care {
+    padding-top: 5%;
+}
+
+#care img {
+    max-width: 35%;
+    float: right;
+}
+
+article aside {
+    text-align: center;
+}
+
+
 
 #tree_vid {
 
@@ -79,7 +120,6 @@ main p {
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     overflow: hidden;
     text-align: center;
-
 
 }
 
