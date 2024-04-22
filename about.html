@@ -24,14 +24,12 @@
 <body>
 
 <header>
-
     <h1 class="title">Re-Tree Me!</h1>
-
 </header>
 
-<nav class="mobile"></nav>
+<nav class="mobile_tablet"></nav>
 
-<nav class="tablet_desktop">
+<nav class="desktop">
 
     <ul>
         <li><a href="index.html">Home</a></li>
@@ -51,20 +49,18 @@
     </div>
 
     <article>
-        <section>
+        <section id="whoRwe">
             <img src="images/planting_tree_1.jpg" alt="People planting trees">
             <h2>Who Are We?</h2>
             <p>Welcome to Re-Tree Me! We're not just another non-profit organization; we're a dedicated community of environmental enthusiasts on a mission to save the planet! At Re-Tree Me, we understand the profound impact that trees and plants have on the health of our ecosystem, and we're committed to harnessing that power for positive change. Through our global network of volunteers, partners, and supporters, we plant trees and other vital flora in key locations around the world, working tirelessly to combat deforestation, mitigate climate change, and promote biodiversity. With each sapling we nurture and every seed we sow, we're not just planting trees; we're cultivating hope for a greener, healthier future for generations to come. Join us in our mission to make Earth a better place for all its inhabitants, one tree at a time. Together, let's re-imagine and reinvigorate our world with the transformative power of nature.</p>
         </section>
 
-        <section id="mission">
-            <img src="images/sapling.jpg" alt="Tree Sapling">
+        <section>
             <h2>Our Mission</h2>
             <p>Re-Tree Me!  has a singular mission: to revitalize and rejuvenate our planet one tree at a time.</p>
         </section>
 
-        <section id="care">
-            <img src="images/Earth_fullview.jpg">
+        <section>
             <h2>Why We Care</h2>
             <p>In recent years, the specter of global warming has loomed ever larger, casting a shadow of uncertainty over the future of our planet. From melting ice caps to extreme weather events, the signs of our changing climate are undeniable, and the urgency to act has never been greater. Yet amidst these challenges, there shines a beacon of hope: the profound impact that planting trees and caring for our planet can have on mitigating the effects of climate change. Trees, with their remarkable ability to absorb carbon dioxide and release oxygen, stand as natural allies in the fight against rising temperatures and dwindling biodiversity. By replenishing forests, restoring ecosystems, and embracing sustainable practices, we not only mitigate the harmful effects of global warming but also nurture the very lifeblood of our beautiful home. Each tree planted is a promise of resilience, a testament to our collective determination to safeguard the wonders of our planet for future generations. Together, through our actions, we can forge a path towards a brighter, more sustainable future, where the beauty of nature flourishes and the health of our planet endures.</p>
         </section>
@@ -73,7 +69,19 @@
 
         <aside>
             <h2>Tree-via!</h2>
-<!--            put some tree trivia here with the show hide javascript stuff-->
+            <p id="smallp">(click the question to reveal the answer below)</p>
+
+            <div id="questions">
+                <p onclick="ans1()">True or False: Trees are the longest living organisms on  Earth and don't die of old age.</p>
+                <p onclick="ans2()">How can trees reduce climate change on our Earth?</p>
+                <p onclick="ans3()">How many species of trees are there?</p>
+            </div>
+
+            <div id="answer">
+                <h3>Answer:</h3>
+                <p></p>
+            </div>
+
         </aside>
     </article>
 
@@ -105,6 +113,6 @@
     </div>
 
 </footer>
-
+<script src="javascript/script.js"></script>
 </body>
 </html>
