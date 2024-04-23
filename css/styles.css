@@ -150,6 +150,62 @@ input[type=submit]:hover {
     background-color: #2e8b2e;
 }
 
+/* Contact Grid Container */
+.contact-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px;
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px; 
+  }
+  
+  /* Contact Form Section */
+  .contact-form-section {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Contact Details and Map Section */
+  .contact-details-map-section {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Google Maps Embed */
+  .map iframe {
+    width: 100%; 
+    height: 450px; 
+    border: 0;
+    border-radius: 8px;
+  }
+
+/* Form Elements Style */
+.contact-form-section form label,
+.contact-form-section form input,
+.contact-form-section form textarea,
+.contact-form-section form button {
+  width: 100%; 
+  margin-top: 10px; 
+}
+
+.contact-form-section form button {
+  background-color: #39ac39; 
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form-section form button:hover {
+  background-color: #2e8b2e; 
+}
+
 #questions p {
     cursor: pointer;
 }
@@ -282,6 +338,14 @@ footer a {
         font-size: 1.5em;
         padding: 15px 30px;
     }
+
+    .contact-grid-container {
+        grid-template-columns: 1fr; 
+      }
+    
+      .map iframe {
+        height: 300px; 
+      }
 
     footer p {
         font-size: 1.25em;
