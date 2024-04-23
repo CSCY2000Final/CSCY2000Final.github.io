@@ -60,6 +60,50 @@
         <h1>Donations</h1>
     </div>
 
+    <form action="/submit-donation" method="post">
+        <fieldset>
+            <legend>Donor Information</legend>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+        </fieldset>
+
+        <fieldset>
+            <legend>Donation Details</legend>
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" name="amount" required min="1">
+
+            <label for="donationType">Donation Type:</label>
+            <select id="donationType" name="donationType">
+                <option value="one-time">One-time</option>
+                <option value="monthly">Monthly</option>
+                <option value="annually">Annually</option>
+            </select>
+
+            <label for="tribute">Tribute/Memorial Name:</label>
+            <input type="text" id="tribute" name="tribute">
+
+            <label for="anonymous">Donate Anonymously:</label>
+            <input type="checkbox" id="anonymous" name="anonymous">
+
+            <label for="newsletter">Subscribe to Newsletter:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" checked>
+        </fieldset>
+
+        <input type="submit" value="Submit Donation">
+    </form>
+
     <div class="bottomLogo">
         <img src="images/reTreeLogo.png" alt="Young Tree Sapling">
     </div>
