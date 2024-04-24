@@ -446,7 +446,7 @@ footer a {
     }
 
     .copyright {
-        font-size: 4em;
+        font-size: 1em;
     }
 
     main p {
@@ -520,8 +520,9 @@ footer a {
     }
 
     footer p {
-        font-size: 2em;
+        font-size: 1em;
     }
 }
+
 
 
