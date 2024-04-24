@@ -206,6 +206,23 @@ input[type=submit]:hover {
   background-color: #2e8b2e; 
 }
 
+.partners-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.partner-logos {
+    margin-bottom: 20px;
+}
+
+.partner-logo {
+    max-width: 350px;
+    margin: 10px;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
 #questions p {
     cursor: pointer;
 }
@@ -261,7 +278,7 @@ footer a {
 
 /*Tablet Styles*/
 @media screen and (min-width: 767px) {
-
+    
     .mobile, .mobile img {
         display: none;
     }
@@ -341,11 +358,11 @@ footer a {
 
     .contact-grid-container {
         grid-template-columns: 1fr; 
-      }
+    }
     
-      .map iframe {
+    .map iframe {
         height: 300px; 
-      }
+    }
 
     footer p {
         font-size: 1.25em;
